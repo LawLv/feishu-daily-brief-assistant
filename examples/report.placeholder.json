@@ -1,0 +1,138 @@
+{
+  "id": "2026-01-02-example",
+  "title": "飞书技术支持简报 · 占位演示",
+  "period": "2026.01.01 — 2026.01.02 · 示例时区",
+  "summary": "这是模板占位演示，不代表任何真实产品状态。",
+  "sections": [
+    {
+      "number": "01",
+      "name": "BG1",
+      "tone": "blue",
+      "verdict": "[填写本模块最重要的结论]",
+      "intro": "[填写一句话概括]",
+      "records": [
+        {
+          "conclusion": "[填写结论式条目标题]",
+          "summary": "[填写一句话概括]",
+          "detail": "[填写必要详情、适用条件、依据和跟进事项。这里没有真实聊天、邮件或客户数据。]",
+          "sources": [
+            {
+              "label": "占位来源",
+              "url": "https://example.com/source"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "name": "CC1",
+      "tone": "green",
+      "verdict": "[填写本模块最重要的结论]",
+      "intro": "[填写一句话概括]",
+      "records": [
+        {
+          "conclusion": "[填写结论式条目标题]",
+          "summary": "[填写一句话概括]",
+          "detail": "[填写必要详情、适用条件、依据和跟进事项。这里没有真实聊天、邮件或客户数据。]",
+          "sources": [
+            {
+              "label": "占位来源",
+              "url": "https://example.com/source"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "number": "03",
+      "name": "MT1",
+      "tone": "purple",
+      "verdict": "[填写本模块最重要的结论]",
+      "intro": "[填写一句话概括]",
+      "records": [
+        {
+          "conclusion": "[填写结论式条目标题]",
+          "summary": "[填写一句话概括]",
+          "detail": "[填写必要详情、适用条件、依据和跟进事项。这里没有真实聊天、邮件或客户数据。]",
+          "sources": [
+            {
+              "label": "占位来源",
+              "url": "https://example.com/source"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "name": "ET1",
+      "tone": "blue",
+      "verdict": "[填写本模块最重要的结论]",
+      "intro": "[填写一句话概括]",
+      "records": [
+        {
+          "conclusion": "[填写结论式条目标题]",
+          "summary": "[填写一句话概括]",
+          "detail": "[填写必要详情、适用条件、依据和跟进事项。这里没有真实聊天、邮件或客户数据。]",
+          "sources": [
+            {
+              "label": "占位来源",
+              "url": "https://example.com/source"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "number": "05",
+      "name": "平台与软件",
+      "tone": "purple",
+      "verdict": "[填写本模块最重要的结论]",
+      "intro": "[填写一句话概括]",
+      "records": [
+        {
+          "conclusion": "[填写结论式条目标题]",
+          "summary": "[填写一句话概括]",
+          "detail": "[填写必要详情、适用条件、依据和跟进事项。这里没有真实聊天、邮件或客户数据。]",
+          "sources": [
+            {
+              "label": "占位来源",
+              "url": "https://example.com/source"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "number": "06",
+      "name": "政策资料提醒",
+      "tone": "green",
+      "verdict": "[填写本模块最重要的结论]",
+      "intro": "[填写一句话概括]",
+      "records": [
+        {
+          "conclusion": "[填写结论式条目标题]",
+          "summary": "[填写一句话概括]",
+          "detail": "[填写必要详情、适用条件、依据和跟进事项。这里没有真实聊天、邮件或客户数据。]",
+          "sources": [
+            {
+              "label": "占位来源",
+              "url": "https://example.com/source"
+            }
+          ],
+          "images": []
+        }
+      ]
+    }
+  ],
+  "scope": "占位数据：不包含实际读取结果。",
+  "boundary": "此示例只展示结构与格式，不用于技术判断。",
+  "historical": "",
+  "published_at": "2026-01-02T00:00:00Z"
+}

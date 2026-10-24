@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Brief WenKai";
+  src: url("/fonts/LXGWWenKaiScreen-v1.530.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  color-scheme: light;
+  --background: #f2efe7;
+  --foreground: #263a41;
+  --muted-foreground: #627379;
+  --border: #dcded6;
+  --blue: #397ac2;
+  --green: #29967b;
+  --orange: #d69742;
+  --purple: #9371c7;
+}
+html, body { margin: 0; padding: 0; background: var(--background); }
+body { font-family: "Brief WenKai", "Microsoft YaHei UI", "微软雅黑", sans-serif; }
+#feishu-flat { padding: 30px; color: var(--foreground); font-family: inherit; font-size: 18px; font-weight: 400; line-height: 1.8; }
+#feishu-flat * { box-sizing: border-box; font-family: inherit; }
+a { color: #28618d; text-underline-offset: 3px; }
+.text-small { font-size: 14px; }
+.report-nav { display: flex; gap: 20px; flex-wrap: wrap; margin: 0 0 22px; font-size: 14px; }
+.report-nav a { color: #5c7378; }
+.flat-mast { padding: 22px 26px 24px; margin-bottom: 28px; border: 1px solid #dadfd6; border-radius: 14px; background: #e9eee5; }
+.flat-kicker { color: var(--muted-foreground); font-weight: 700; }
+#feishu-flat h1 { margin: 8px 0 14px; font-size: clamp(29px, 2.1vw, 40px); font-weight: 700; line-height: 1.4; }
+.flat-period { display: block; margin-top: 10px; font-size: clamp(25px, 1.9vw, 36px); font-weight: 700; color: #356d62; letter-spacing: .015em; }
+.flat-period span { display: inline; }
+.flat-intro { margin: 0; font-size: 19px; font-weight: 700; }
+.flat-index { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.flat-index-item { display: inline-flex; gap: 6px; padding: 6px 10px; border-radius: 5px; background: color-mix(in srgb, var(--section-color) 10%, #f7f5ee); }
+.orange { --section-color: var(--orange); }
+.blue { --section-color: var(--blue); }
+.green { --section-color: var(--green); }
+.purple { --section-color: var(--purple); }
+#flat-sections { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 24px; }
+.flat-module { min-width: 0; overflow: hidden; border: 1px solid var(--border); border-radius: 12px; background: #faf7ef; counter-reset: report-item; }
+.flat-module-head { padding: 20px 22px; background: color-mix(in srgb, var(--section-color) 10%, #f4f2e9); border-left: 4px solid var(--section-color); }
+.flat-module-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; }
+#feishu-flat h2 { margin: 0; font-size: 29px; line-height: 1.4; font-weight: 700; color: color-mix(in srgb, var(--section-color) 48%, var(--foreground)); }
+.flat-number { color: var(--muted-foreground); font-weight: 700; }
+.flat-verdict { margin: 10px 0 0; font-size: 19px; line-height: 1.65; font-weight: 700; }
+.flat-module-intro { margin: 15px 22px 0; color: var(--muted-foreground); font-size: 16px; }
+.flat-item { padding: 24px 22px; overflow-wrap: anywhere; counter-increment: report-item; }
+.flat-item + .flat-item { border-top: 1px solid var(--border); }
+#feishu-flat h3 { display: flex; align-items: flex-start; gap: 10px; margin: 0 0 12px; font-size: 21px; line-height: 1.6; font-weight: 700; }
+.flat-item h3::before { content: counter(report-item, decimal-leading-zero); display: inline-flex; align-items: center; justify-content: center; flex: 0 0 28px; min-height: 28px; margin-top: 2px; border-radius: 6px; background: color-mix(in srgb, var(--section-color) 12%, transparent); color: color-mix(in srgb, var(--section-color) 48%, var(--foreground)); font: 700 12px/28px "Segoe UI", sans-serif; }
+.flat-summary { margin: 0 0 12px; font-size: 18px; font-weight: 700; line-height: 1.8; }
+.flat-detail { margin: 0; font-size: 18px; font-weight: 400; line-height: 1.85; color: #31474d; }
+.flat-links { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 12px; font-size: 15px; }
+.flat-links a { display: inline-flex; align-items: center; gap: 4px; }
+.flat-figure { margin: 18px 0 8px; padding: 0; }
+.flat-photo { display: block; max-width: 100%; width: auto; height: auto; max-height: 400px; margin: 0 auto; border-radius: 6px; }
+.flat-caption { display: flex; flex-direction: column; gap: 5px; margin-top: 9px; font-size: 14px; line-height: 1.6; color: var(--muted-foreground); }
+.flat-caption a { width: fit-content; }
+.flat-method { margin-top: 26px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted-foreground); }
+.flat-method p { margin: 8px 0; }
+@media (max-width: 1300px) { #flat-sections { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; } #feishu-flat { padding: 22px; } }
+@media (max-width: 820px) { #flat-sections { grid-template-columns: minmax(0, 1fr); } #feishu-flat { padding: 16px; } .flat-mast { padding: 18px; } }
+@media print { #flat-sections { display: block; } .flat-module { break-inside: avoid; } .report-nav { display: none; } }

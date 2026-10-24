@@ -1,0 +1,76 @@
+{
+  "snapshot_date": "2026-10-24",
+  "scope": "SOP、通用提示词、版式和占位模板；无实际业务报告或个人连接配置",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 92,
+      "sha256": "ccf893fec320d638fd16584c2c1e0e52be7808ccb49448005b6ae300f394d79b"
+    },
+    {
+      "path": "docs/font-notice.md",
+      "bytes": 671,
+      "sha256": "971b9cc1e6aa58026f0e54e4ed132e9b75c2bb2bac852c04ad62210db1d80521"
+    },
+    {
+      "path": "docs/runtime-requirements.md",
+      "bytes": 1970,
+      "sha256": "3785d9a01a8ca66ec813a3f714cfb4debb789b914525cef65889279929856c40"
+    },
+    {
+      "path": "examples/report.placeholder.json",
+      "bytes": 4462,
+      "sha256": "421ba2c1e326611557244f0dee66da0882d3c15864ab6bfe08acbac2d93421e6"
+    },
+    {
+      "path": "format/style-guide.md",
+      "bytes": 1576,
+      "sha256": "36511a6198c1c664d9d2dccd08915a4a706cc7cc6d105aaedf256660ca77dab0"
+    },
+    {
+      "path": "package.json",
+      "bytes": 214,
+      "sha256": "b7c8bbc9ef94ccf528c7d5864d23da91880aa5eab500a792d65dcf8fe0d837e9"
+    },
+    {
+      "path": "prompts/daily-brief.md",
+      "bytes": 3367,
+      "sha256": "9766b6a879a252d15e325e081779046b8fda691c542be024d8fda2ee4efd2e92"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3000,
+      "sha256": "c8d4d8873a0808424b3def94d6e53e3ad8ca8eaea2e334dcae2b4e9c08891bdb"
+    },
+    {
+      "path": "scripts/render-example.mjs",
+      "bytes": 807,
+      "sha256": "852aacd1e52820ce5b3c316bafd80a795f54ea8b7dbbe7ab10a701c2c51971c9"
+    },
+    {
+      "path": "SOP.md",
+      "bytes": 4967,
+      "sha256": "f2ebc57f438ff29c31858969dc91d3713c26da78ed46e823c00082d02a076180"
+    },
+    {
+      "path": "templates/report-reading.css",
+      "bytes": 4906,
+      "sha256": "1af1c21a8059e7922438fe1e67c01566e5940341e80be92ccbb8d87d5b91ae88"
+    },
+    {
+      "path": "templates/report-template.ts",
+      "bytes": 7536,
+      "sha256": "d46a40583a5a852df7c807dc1440b9fb29f7b0dccedc9b38bb792c1f6269b671"
+    },
+    {
+      "path": "templates/types.ts",
+      "bytes": 529,
+      "sha256": "b23b6e0565bda797db8d36da6de5901b5f2a6fc00b07a6808f19ce35bbcbf77e"
+    },
+    {
+      "path": "third-party/OFL.txt",
+      "bytes": 6027,
+      "sha256": "ba38832f9d7e0ad601a1ab90d58f251ba957532885ef80dca050a611962fd8b6"
+    }
+  ]
+}

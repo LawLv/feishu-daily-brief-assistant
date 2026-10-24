@@ -1,0 +1,11 @@
+{
+  "name": "feishu-daily-brief-assistant-sop",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "preview:render": "node scripts/render-example.mjs"
+  }
+}
